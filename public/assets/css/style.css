@@ -84,6 +84,10 @@ a.navbar-brand {
     position: relative;
 }
 
+/* header{
+    height: 100px;
+} */
+
 /*-- //header --*/
 
 
@@ -97,7 +101,7 @@ a.navbar-brand {
 .banner-text a {
   background-color: #ffc905;
     border-color: #ffc905;
-    color: #000;
+    color: #191919;
     padding: 0.8em 2em;
     border-radius: 4px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.15);
@@ -128,7 +132,7 @@ p.sub-para {
 
 .home h3 {
     font-size: 2em;
-    color: #ffffff;
+    color:  #FFFFF0;
     letter-spacing: 2px;
     font-weight: 400;
     line-height: 1.15em;
@@ -406,7 +410,7 @@ header {
     z-index: 9;
     width: 100%;
     padding: 1rem 0;
-	background-color:#111;
+	background-color:#191919;
 }
 
 .toggle,
@@ -462,6 +466,10 @@ nav a,nav a:hover {
 .menu li.active  a{ 
     color: #eee;
     background: transparent;
+}
+
+.menu li{
+    margin: 10px;
 }
 
 /* Hide Dropdowns by Default
@@ -610,7 +618,7 @@ li > a:only-child:after { content: ''; }
 	nav ul ul {
 		float: none;
 		position:static;
-		color: #ffffff;
+		color:  #FFFFF0;
 		/* has to be the same number as the "line-height" of "nav a" */
 	}
 		
@@ -670,6 +678,8 @@ h3.heading {
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 3px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .breadcrumb-item {
     letter-spacing: 2px;
@@ -689,13 +699,13 @@ h3.heading {
     top: 0;
     left: 0;
     opacity: 0.4;
-    background: #000;
+    background: #191919;
 }
 
 .title-desc a.btn {
        background-color: #ffc905;
     border-color: #ffc905;
-    color: #000;
+    color: #191919;
     padding: 0.8em 2em;
     border-radius: 4px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.15);
@@ -880,7 +890,7 @@ span.fa.fa-arrow-circle-o-right {
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
-    color: #000;
+    color: #191919;
 }
 
 
@@ -980,7 +990,7 @@ a.t-icon span {
 /*-- /order-sec --*/
 
 .order-sec {
-    background: #000;
+    background: #191919;
 }
 
 h3.tittle span,
@@ -1005,7 +1015,7 @@ h3.tittle.order {
 
 h4.tittle {
     font-size: 4em;
-    color: #ffffff;
+    color:  #FFFFF0;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
     text-transform: uppercase;
     letter-spacing: 10px;
@@ -1014,7 +1024,7 @@ h4.tittle {
 .read-more a {
          background-color: #ffc905;
     border-color: #ffc905;
-    color: #000;
+    color: #191919;
     padding: 0.8em 2em;
     border-radius: 4px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.15);
@@ -1175,7 +1185,7 @@ a.w3pvt_google {
     -o-transition: all 0.25s ease;
     -webkit-transition: all 0.25s ease;
     transition: all 0.25s ease;
-    color: #000;
+    color: #191919;
     padding: 0.9em 3em;
     text-transform: uppercase;
     font-size: 0.9em;
@@ -1591,4 +1601,63 @@ h3.tittle.order {
     font-size: 1.2em;
 }
 }
+
+.krehje{
+    height: 340px;
+}
+
+.lyerje{
+    height: 290px;
+}
+
+.manikyr{
+    height: 102px;
+}
+
+.depilim{
+    height: 102px;
+}
+
+.rezervimi{
+    margin-top: 100px;
+}
+
+.lyerjeimg{
+    height: 300px;
+}
+
+.krehjeimg{
+    height: 300px;
+}
+
+.manikyrimg{
+    height: 300px;
+}
+
+.makeupimg{
+    width: 300px;
+    height: 300px;
+}
+
+.pedikyrimg{
+    height: 300px;
+}
+
+.depilimimg{
+    height: 300px;
+}
+
+.fotomes{
+    margin-bottom: 50px;
+}
+
+.harta{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#about{
+    background-color: #FFFFF0;
+}
+
 /*-- //Responsive design --*/
